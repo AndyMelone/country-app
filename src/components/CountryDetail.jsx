@@ -1,7 +1,7 @@
 export default function CountryDetail() {
   return (
     <>
-      <div className="homeCountryDark bg-dark">
+      <div className="country-detail bg-dark">
         <div className="imageDark">
           <h1>images</h1>
         </div>

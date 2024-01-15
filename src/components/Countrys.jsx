@@ -2,25 +2,20 @@ import CountryDetail from "./CountryDetail";
 
 export default function Countrys() {
   return (
-    <section className="sectionDark">
+    <section className="countrys">
       <div className="search color-dark  ">
-        <div>
-          <input
-            className="bg-dark  color-dark"
-            type="text"
-            placeholder="Search for country"
-          />
-        </div>
+        <input
+          className="bg-dark  color-dark"
+          type="text"
+          placeholder="Search for country"
+        />
+        <input type="button" value="check" />
       </div>
-      <div
-        style={{
-          width: "100%",
-          display: "inline-flex",
-          justifyContent: "space-between",
-          flexWrap: "wrap",
-          gap: "32px",
-        }}
-      >
+
+      <div className="country-container">
+        <CountryDetail />
+        <CountryDetail />
+        <CountryDetail />
         <CountryDetail />
         <CountryDetail />
         <CountryDetail />
